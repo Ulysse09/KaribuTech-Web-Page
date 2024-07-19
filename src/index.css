@@ -68,7 +68,7 @@
 .fadeInDown {
   animation: fadeInDown 1.6s ease-in-out 0s;
 }
-.yellow {
+/* .yellow {
   background-image: url("./assets/10004.jpeg");
   background-size: cover;
   background-position: center;
@@ -79,7 +79,7 @@
   right: 0;
   bottom: 0rem;
   z-index: 1;
-}
+} */
 
 .bg-image-2 {
   background-image: url("./assets/corpo2.jpg");
