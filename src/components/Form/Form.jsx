@@ -41,37 +41,80 @@ const Form = () => {
   return (
     <>
       <ToastContainer />
-      <div className=" relative flex justify-center ">
-        <div className=" bg-white rounded-xl  flex flex-col md:flex-row absolute lg:w-[75%] md:w-[75%] w-[90%] mt-[-52rem] top-[40rem]    lg:top-[42rem] mx-auto md:top-[55rem] py-[2rem] md:pb-[rem] pb-[3rem] item-center">
-          <form className="flex flex-col items-center px-8 py-0  w-full space-y-10  ">
-            <h2 className=" text-3xl font-semibold font-roboto   text-center">
-              Join our Newsletter
+      <div className="lg:pb-8 relative font-nunito flex-1">
+        <div className="bg-image-2   " />
+        <div className="lg:mt-4 top-4 lg:bg-white bg-purple-200 rounded-xl  flex flex-col md:flex-row absolute lg:w-[50%] md:w-[75%]     lg:top-[1rem] md:left-[8rem] md:top-[55rem] py-[2rem] md:pb-[6rem] pb-[5rem] w-full">
+          <form className="flex flex-col px-8  md:w-2/3 space-y-10   ">
+            <h2 className="text-[rgb(3,57,108)] text-2xl font-semibold font-roboto">
+              Contact us
             </h2>
-            <p className="lg:max-w-xl text-center max-w-sm ">
-              Many desktop publishing packages and web editors now use their
-              default model text, many web in their infancy various versions.
-            </p>
 
-            <div className="flex   lg:w-[430px]  ">
-              <input
-                type="email"
-                placeholder="Enter your Email"
-                value={email}
-                className=" outline-none border-2 border-sky-900 border-r-0 rounded-l-md    w-full transition-colors duration-300  p-4    px-3 py-3  "
-                required
-                onChange={(e) => setEmail(e.target.value)}
-              ></input>
-
+            <input
+              type="text"
+              placeholder="Name"
+              value={name}
+              name=""
+              id=""
+              className=" rounded-lg outline-none hover:border-purple-400 border-2  border-gray-400  px-3 py-1"
+              required
+              onChange={(e) => setName(e.target.value)}
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              value={email}
+              className=" outline-none hover:border-purple-400 border-2  border-gray-400 rounded-lg px-3 py-1 "
+              required
+              onChange={(e) => setEmail(e.target.value)}
+            />
+            <input
+              type="text"
+              placeholder="Subject"
+              value={subject}
+              className=" outline-none hover:border-purple-400 border-2  border-gray-400 rounded-lg px-3 py-1"
+              required
+              onChange={(e) => setSubject(e.target.value)}
+            />
+            <input
+              type="text"
+              placeholder="Message"
+              value={text}
+              className="border-gray-400  outline-none hover:border-purple-400   border-2 rounded-lg px-3 py-8"
+              required
+              onChange={(e) => setText(e.target.value)}
+            />
+            <div className="">
               <button
                 onClick={(e) => handleSubmit(e)}
-                className="  bg-[#055589] border border-sky-900 w-[150px] py-3 hover:bg-black transition-colors duration-300  text-sm focus:bg-black   text-white font-semibold"
+                className="px-4 py-2 bg-[#055589] focus:bg-black rounded-md text-white font-semibold"
               >
-                <p className="text-md ">
-                  {isLoading ? "Sending mail..." : "Subscribe"}
-                </p>
+                {isLoading ? "Sending mail..." : "Send mail"}
               </button>
             </div>
           </form>
+
+          <div className="md:w-1/3 flex flex-col items-center  space-y-2 pt-[4rem] pb-[4rem]  ">
+            <div>
+              <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
+                Address
+              </h2>
+              <p className="text-[#3A3A3A]">KK 314 st, Kigali</p>
+            </div>
+
+            <div>
+              <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
+                Email
+              </h2>
+              <p className="text-[#3A3A3A]">KaribuTech12@gmail.com</p>
+            </div>
+
+            <div>
+              <h2 className="font-bold text-xl text-[#3A3A3A] text-center">
+                Phone
+              </h2>
+              <p className="text-[#3A3A3A]">+2507848 24 525</p>
+            </div>
+          </div>
         </div>
       </div>
     </>

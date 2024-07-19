@@ -1,4 +1,4 @@
-import logo from "../../assets/Blue1.png";
+import logo from "../../assets/logo.png";
 import { useState, useEffect } from "react";
 import { BiMenuAltRight } from "react-icons/bi";
 import { IoMdClose } from "react-icons/io";
@@ -28,8 +28,8 @@ const Nav = () => {
       <nav
         className={
           isScrolled
-            ? `nav-scrolled flex    items-center p-2 w-full lg:fixed   text-white z-10  lg:px-[10rem] justify-between`
-            : `flex   items-center p-2 w-full lg:fixed   text-white z-10  lg:px-[10rem] justify-between`
+            ? `nav-scrolled flex  font-nunito  items-center p-2 w-full lg:fixed   text-white z-10  lg:px-[10rem] justify-between`
+            : `flex   items-center p-2 w-full lg:fixed font-nunito  text-white z-10  lg:px-[10rem] justify-between`
         }
       >
         <Link to={"/"}>
@@ -71,7 +71,7 @@ const Nav = () => {
         </div>
 
         <div className="space-x-4 items-center lg:flex hidden">
-          <p className="px-4 py-2 bg-blue-400 text-white font-roboto  ">
+          <p className="px-4 py-2 bg-purple-400 text-white font-roboto  ">
             Contact us
           </p>
         </div>

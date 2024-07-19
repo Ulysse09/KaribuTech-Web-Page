@@ -9,12 +9,13 @@ import About from "./pages/About.jsx"
 import Contact from "./pages/Contact.jsx";
 import Gallery from "./pages/Gallery.jsx";
 import Careers from "./pages/Careers.jsx"
+import { Footer2 } from "./components/Footer/Footer2.jsx";
 const Layout = () => {
   return (
     <>
       <Nav />
       <Outlet />
-      <Footer />
+      <Footer2 />
     </>
   );
 };

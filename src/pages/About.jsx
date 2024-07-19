@@ -1,10 +1,12 @@
-import { IoIosTimer } from "react-icons/io";
 import { RiGlobalLine } from "react-icons/ri";
+import { IoIosTimer } from "react-icons/io";
+
 import { MdDeliveryDining } from "react-icons/md";
 import { Carousel } from "react-responsive-carousel";
 import ship2 from "../assets/ship2.jpg";
 import air from "../assets/air.jpg";
 import trucks from "../assets/trucks.jpg";
+import Card from "../components/Card/Card";
 const About = () => {
   const testimonies = [
     {
@@ -135,30 +137,30 @@ const About = () => {
         </div>
       </div>
 
-        {/* Why choose us */}
+      {/* Why choose us */}
       <h1 className="font-roboto text-center text-4xl text-blue-900  font-bold my-[5rem]">
         Why choose us
       </h1>
       <div className="md:flex font-roboto xl:justify-evenly h-full w-full gap-2 p-5 xl:pr- xl:pl-20 transition duration-500">
-        <div className="group p-5 md:w-[70rem] border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
-          <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900  w-24 h-24 rounded-full flex items-center justify-center mt-6  ml-auto mr-auto ">
+        <Card
+          title={"24 Hour Support"}
+          content={
+            "FabLab Rwanda Ltd mission is to provide knowledge and skills, access            to the tools, innovate and invent using technology and digital            fabrication to allow anyone to make (almost anything).We will accomplish this while providing quality of training, access to high    standard digital facilities and excellent quality services to our"
+          }
+          icon={
             <IoIosTimer className="text-white text-5xl group-hover:text-blue-900  transition-colors duration-500 delay-150 " />
-          </div>
-          <h2 className="-200 mt-5 flex justify-center font-semibold text-xl">
-            24 Hour Support
-          </h2>
-          <p className=" mt-14 ml-2">
-            {" "}
-            FabLab Rwanda Ltd mission is to provide knowledge and skills, access
-            to the tools, innovate and invent using technology and digital
-            fabrication to allow anyone to make (almost anything).We will
-            accomplish this while providing quality of training, access to high
-            standard digital facilities and excellent quality services to our
-            primary beneficiaries who are engineering graduates, educational
-            institutions, non-profit and community organizations and creating an
-            enjoyable working environment for our employees.
-          </p>
-        </div>
+          }
+        />
+
+        <Card
+          title={" Global supply chain"}
+          content={
+            "To be a well-established digital fabrication company in Rwanda that is able to meet customers needs and deliver on time." 
+          }
+          icon={
+            <IoIosTimer/>
+          }
+        />
         <div className=" group p-5 md:w-[70rem]  border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
           <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900 w-24 h-24 rounded-full flex items-center justify-center ml-auto mr-auto mt-6">
             <RiGlobalLine className="text-white text-5xl group-hover:text-blue-900 transition-colors duration-500 delay-200" />
