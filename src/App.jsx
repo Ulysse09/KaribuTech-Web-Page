@@ -226,7 +226,7 @@ function App() {
 
       {/* CONTACT FORM */}
       <div>
-        <Form />
+        <Form classNam="bg-red-400" />
       </div>
     </>
   );
