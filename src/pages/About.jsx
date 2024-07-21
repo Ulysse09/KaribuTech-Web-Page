@@ -1,12 +1,14 @@
 import { RiGlobalLine } from "react-icons/ri";
 import { IoIosTimer } from "react-icons/io";
-
+import { GiAfrica } from "react-icons/gi";
+import { FaUser } from "react-icons/fa";
 import { MdDeliveryDining } from "react-icons/md";
 import { Carousel } from "react-responsive-carousel";
 import ship2 from "../assets/ship2.jpg";
 import air from "../assets/air.jpg";
 import trucks from "../assets/trucks.jpg";
 import Card from "../components/Card/Card";
+import Header from "../sections/Header";
 const About = () => {
   const testimonies = [
     {
@@ -28,51 +30,34 @@ const About = () => {
   return (
     <>
       {/* header image */}
-      <div className="backgroundImage  -z-10 bg-cover bg-bottom relative bg-blue-600 ">
-        <div className="bg-e-global-color-1046ecd transition-all -z-20 duration-300 overlay" />
-        <div className="pt-34 lg:pt-52  ">
-          <div className=" w-3/4 h-72 mx-auto align-center pt-24 text-center  ">
-            <span className="">
-              <h1 className=" pb-10 text-white text-4xl lg:text-[2.7rem] font-bold  w-100 h-16   mt-4">
-                About Us{" "}
-              </h1>
-            </span>
-            <span>
-              <p className=" text-white text-xl lg:text-2xl font-light font-roboto mt-4">
-                Connecting Continents, Fast-tracking Success
-              </p>
-            </span>
-          </div>
-        </div>
-      </div>
-
+      <Header title={"About us!"}/>
       {/* header text  */}
 
       <div className=" w-full pt-[4rem] bg-slate-100 bg-gradient-to-b from-white">
         <div className="md:flex justify-evenly   md:h-[30rem]">
-          <div className=" font-roboto md:w-[37rem] pl-6 md:h-[29rem]">
+          <div className=" font-nunito md:w-[37rem] pl-6 md:h-[29rem]">
             {/* </div> */}
-            <h1 className="mt-[0.5rem] text-[1.8rem] text-sky-900 font-semibold">
-              What we are about ?
+            <h1 className="mt-[0.5rem] text-[1.8rem]  font-semibold">
+              Welcome to <span className="text-purple-500">Karibu Tech</span>
             </h1>
             <p className="mt-[1.2rem]">
-              FabLab Rwanda is a space for members to turn innovative ideas into
-              products specifically in the hardware and electronics domain. The
-              space provides a platform for capacity building and integration of
-              hardware skills with software knowledge and quickly bringing
-              Rwandan innovators closer to the Internet of Things era. The space
-              provides collaborative community, Knowledge base and innovation
-              business model Guidance with a core focus to increase Rwandas
-              competitiveness in the fields of Design, Engineering, Electronics,
-              Fabrication and High-Tech innovative business.
+              At Karibu Tech, we are passionate about crafting exceptional
+              digital experiences that drive success for businesses across
+              Africa and beyond. Based in the heart of Africa, our digital
+              agency is dedicated to harnessing the power of technology to
+              transform visions into reality
             </p>
-            <p className="mt-[1.2rem]">
-              FABLAB Rwanda also serves as a model for the nations leaders in
-              policy, government, and industry, to experience, first hand, Fab
-              Labs grass roots approach in developing technical education and
-              literacy, promoting innovation and launching inventions
-              <br /> while transforming traditional industries into digital
-              fabrication agents.
+            <p className="mt-[1.2rem] font-nunito">
+              Founded in 2020,{" "}
+              <span className="text-purple-500 font-semibold ">
+                Karibu Tech
+              </span>{" "}
+              is a dynamic team of skilled developers, creative designers, and
+              strategic thinkers. Our diverse expertise spans various
+              industries, enabling us to understand the unique challenges and
+              opportunities within the African market. We are committed to
+              excellence, innovation, and continuous learning, ensuring we stay
+              at the forefront of the ever-evolving digital landscape.
             </p>
           </div>
           <div className=" md:h-[23rem] xl:w-[32rem] md:w-[30rem] sm:w-[10rem] sm:h-[40rem] block justify-end px-4 py-2 ">
@@ -93,8 +78,8 @@ const About = () => {
         </div>
       </div>
 
-      <div className=" bg-sky-900 font-roboto w-full xl:h-[19rem] justify-evenly  ">
-        <div className="md:flex md:justify-evenly px-[2rem]   h-full md:pt-20 md:pb-20 px-0 py-8 container mx-auto">
+      <div className=" bg-purple-600 font-nunito w-full  justify-evenly  ">
+        <div className="md:flex flex items-start   px-[2rem]   h-full md:pt-20 lg:py-10 md:pb-20 space-x-8 py-8 container mx-auto">
           <div className=" md:w-[40rem] xl:h-36 flex items-center space-x-6  ">
             <h1 className=" text-4xl font-semibold text-white outline outline-1 p-4 rounded-md">
               M
@@ -102,22 +87,22 @@ const About = () => {
             <div>
               <p className="pt-7 text-white font-bold text-3xl">Our mission</p>
               <p className="text-white max-w-sm">
-                We meet our customers’ demands for a personal & profesional
-                service by offering innovative supply chain solutions.
+                Our mission is to empower African businesses and organizations
+                by providing cutting-edge web applications that enhance
+                efficiency, engagement, and profitability
               </p>
             </div>
           </div>
 
-          <div className=" md:w-[40rem] xl:h-36 flex items-center space-x-4   ">
+          <div className=" md:w-[40rem] xl:h-36  flex items-center space-x-4   ">
             <h1 className=" text-4xl font-semibold text-white  outline outline-1 px-5 py-4 rounded-md">
               V
             </h1>
-            <div>
-              <p className="pt-7 text-white text-3xl font-bold">Our vision</p>
+            <div className=" ">
+              <p className="mt-[-1rem]   text-white text-3xl font-bold">Our vision</p>
               <p className="text-white max-w-sm">
-                We proactively and constantly look for new possibilities.
-                Therefore, an important part of our vision is to attract &
-                retain.{" "}
+                Our Vision To be the leading digital agency in Africa, driving
+                transformation and innovation across the continent.
               </p>
             </div>
           </div>
@@ -129,8 +114,10 @@ const About = () => {
             <div>
               <p className="pt-7 text-white text-3xl font-bold">Core values</p>
               <p className="text-white max-w-sm">
-                We meet our customers’ demands for a personal & profesional
-                service by offering innovative supply chain solutions.
+                Our Core-value is client centric design.Our clients are at the
+                heart of our business.We prioritize understanding their needs,
+                goals, and challenges to provide tailored solutions that drive
+                their success.
               </p>
             </div>
           </div>
@@ -138,59 +125,39 @@ const About = () => {
       </div>
 
       {/* Why choose us */}
-      <h1 className="font-roboto text-center text-4xl text-blue-900  font-bold my-[5rem]">
+      <h1 className="font-nunito text-center text-5xl text-black font-bold my-[5rem]">
         Why choose us
       </h1>
-      <div className="md:flex font-roboto xl:justify-evenly h-full w-full gap-2 p-5 xl:pr- xl:pl-20 transition duration-500">
+      <div className="md:flex md:mt-[-4rem]  font-nubito  xl:justify-evenly h-full w-full gap-2 p-5 xl:pr- xl:pl-20 transition duration-500">
         <Card
-          title={"24 Hour Support"}
+          title={"Local Expertise "}
           content={
-            "FabLab Rwanda Ltd mission is to provide knowledge and skills, access            to the tools, innovate and invent using technology and digital            fabrication to allow anyone to make (almost anything).We will accomplish this while providing quality of training, access to high    standard digital facilities and excellent quality services to our"
+            "With a deep understanding of the African market, we create solutions that are culturally relevant and resonate with your audience"
+          }
+          icon={
+            <GiAfrica className="text-white text-5xl group-hover:text-blue-900  transition-colors duration-500 delay-150 " />
+          }
+        />
+
+        <Card
+          title={"Client Centric Approach"}
+          content={
+            "Your success is our priority. We work closely with you throughout the project, ensuring your vision is realized and your expectations are exceeded"
+          }
+          icon={
+            <FaUser  className="text-white text-5xl group-hover:text-blue-900  transition-colors duration-500 delay-150 " />
+          }
+        />
+
+        <Card
+          title={"Proven Track Record"}
+          content={
+            "Our portfolio showcases a wide range of successful projects that demonstrate our ability to deliver high-quality, impactful digital solutions"
           }
           icon={
             <IoIosTimer className="text-white text-5xl group-hover:text-blue-900  transition-colors duration-500 delay-150 " />
           }
         />
-
-        <Card
-          title={" Global supply chain"}
-          content={
-            "To be a well-established digital fabrication company in Rwanda that is able to meet customers needs and deliver on time." 
-          }
-          icon={
-            <IoIosTimer/>
-          }
-        />
-        <div className=" group p-5 md:w-[70rem]  border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
-          <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900 w-24 h-24 rounded-full flex items-center justify-center ml-auto mr-auto mt-6">
-            <RiGlobalLine className="text-white text-5xl group-hover:text-blue-900 transition-colors duration-500 delay-200" />
-          </div>
-          <h2 className=" mt-5 flex justify-center font-semibold text-xl">
-            Global supply chain
-          </h2>
-          <p className=" mt-14 ml-2">
-            To be a well-established digital fabrication company in Rwanda that
-            is able to meet customers needs and deliver on time.
-          </p>
-        </div>
-        <div className="group p-5 md:w-[70rem] border-2 border-gray-400 rounded-lg  hover:border-2 hover:border-blue-900 hover:rounded-lg mt-3 transition-colors duration-500 delay-200">
-          <div className="bg-blue-900 group-hover:bg-white group-hover:border-4 group-hover:border-blue-900  flex items-center justify-center w-24 h-24 rounded-full ml-auto mr-auto mt-6">
-            <MdDeliveryDining className="text-white text-5xl group-hover:text-blue-900 transition-colors duration-500 delay-200" />
-          </div>
-          <h2 className=" mt-5 flex justify-center font-semibold text-xl">
-            Time on Delivery
-          </h2>
-          <p className=" mt-14 ml-2">
-            To Provide shared workspace and tools for schools, TVETs &
-            individuals to work and develop ideas into products in a wide range
-            of domains. To develop Skills in technology education through events
-            & workshops To facilitate translation of innovative concepts into
-            marketable products To enhance the number of professional design
-            experts in Rwanda with word class hands on experience and access to
-            tools. To increase research and improve designs of African centric
-            hardware tools
-          </p>
-        </div>
       </div>
 
       {/* Team members  */}

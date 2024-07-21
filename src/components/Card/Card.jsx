@@ -13,7 +13,7 @@ function Card({title,content,icon,color}) {
           <h2 className="-200 mt-5 flex justify-center font-semibold text-xl">
             {title}
           </h2>
-          <p className=" mt-8 ml-2">
+          <p className=" mt-8 ml-2  font-nunito">
             {content}
             
           </p>

@@ -62,17 +62,17 @@ function App() {
     <>
       <div className="relative     ">
         <div className="lg:h-[100vh] flex justify-center    ">
-          <div className="object-cover brightness-50  bg-red-300 w-full lg:h-[100vh] h-[70vh]">
+          <div className="object-cover brightness-50  bg-red-300 w-full lg:h-[100vh] h-[60vh]">
             <img
               src={corpo4}
-              className="lg:h-[100vh] lg:w-full object-cover object-top  "
+              className="lg:h-[100vh] h-[60vh] lg:w-full object-cover object-top  "
               alt=""
               srcset=""
             />
           </div>
 
           <div className="md:flex justify-center   font-nunito lg:top-[15rem] items-center  top-10 fadeInDown text-white absolute lg:px-[5rem] px-[2rem] space-y-10 lg:space-y-0  lg:mb-[7rem]       ">
-            <div className=" flex-col items-center flex  space-y-[1rem]  lg:space-y-[2rem]   ">
+            <div className=" flex-col items-center flex  space-y-[3rem]  lg:space-y-[2rem]   ">
               <h1 className="font-semibold   pl-2 lg:text-4xl     text-3xl ">
                 From Concept to Success...
                 <span className=" text-purple-400">Karibu</span> Tech
@@ -91,18 +91,18 @@ function App() {
       </div>
       {/* About us */}
 
-      <div className="  flex justify-center lg:items-center flex-col         lg:space-y-0   space-y-[3rem]     ">
-        <div className=" bg-purple-100 hover:border-purple-500 hover:border-2 hover:transition-colors duration-300  rounded-2xl my-[4rem] lg:my-[4rem] lg:h-[80vh]  shadow-md">
-          <div className="flex lg:flex-row  flex-col space-y-20 lg:items-center px-[2rem]  lg:space-x-[5rem] lg:container lg:mx-auto">
+      <div className="  flex   lg:items-center flex-col         lg:space-y-0   space-y-[3rem]       ">
+        <div className=" bg-purple-100 hover:border-purple-500 hover:border-2 hover:transition-colors duration-300  rounded-2xl my-[1rem] pt-8 lg:my-[4rem] lg:h-[80vh]  shadow-md">
+          <div className="flex lg:flex-row  flex-col space-y-12 lg:items-center px-[2rem]  lg:space-x-[5rem] lg:container lg:mx-auto">
             <div className="lg:w-[38vw] md:w-[80vw]  lg:p-[5rem]   lg:space-y-4  ">
               <img src={robot} className="rounded-lg" alt="" />
-              <p className="font-semibold text-[#3A3A3A]  lg:text-left md:text-right text-center py-4 lg:py-0">
-                Rwanda's trusted logistic partner{" "}
+              <p className="font-semibold text-[#3A3A3A]  lg:text-left md:text-right text-center py-4 lg:py-0 text-sm max-w-xl">
+                Rwanda's trusted Digital Agency{" "}
               </p>
             </div>
             <div className="space-y-3 font-nunito flex-col flex lg:items-start items-center   ">
               <div className="flex flex-col mb-14 mt-0  lg:items-start items-center space-y-8">
-                <h2 className="text-5xl text-black lg:text-left text-center font-semibold font-roboto ">
+                <h2 className="lg:text-5xl text-3xl text-black lg:text-left text-center font-semibold font-roboto ">
                   Who Are We?
                 </h2>
                 <p className=" lg:max-w-md max-w-xl text-center md:text-left font-roboto font-light  ">
@@ -129,7 +129,7 @@ function App() {
         </div>
       </div>
       {/* Our services */}
-      <div className=" w-full pt-[8rem]  from-purple-300/50 lg:mt-44 lg:my-32 mb-0 px-10  pb-24 bg-gradient-to-b  to-white   ">
+      <div className=" w-full lg:pt-[8rem] pt-[4rem]  from-purple-300/50 lg:mt-44 lg:my-32 mb-0 px-10  pb-24 bg-gradient-to-b  to-white   ">
         <div className=" flex flex-col items-center  ">
           <h3 className="lg:text-5xl text-2xl text-center max-w-screen-lg font-nunito pb-4 mb-4 font-semibold justify-center ">
             Transforming Ideas Into Reality With Cutting Edge Solutions

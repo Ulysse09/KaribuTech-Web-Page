@@ -67,6 +67,12 @@ const Nav = () => {
             >
               Contact
             </Link>
+            <Link
+              to={"services"}
+              className="hover:border-2 border-b-blue-500 p-2 transition-all duration-100"
+            >
+              Our Services
+            </Link>
           </ul>
         </div>
 
