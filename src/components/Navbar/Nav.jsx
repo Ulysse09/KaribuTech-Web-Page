@@ -50,6 +50,13 @@ const Nav = () => {
               About
             </Link>
             <Link
+              to={"services"}
+              className="hover:border-2 border-b-blue-500 p-2 transition-all duration-100"
+            >
+              Our Services
+            </Link>
+
+            <Link
               to={"careers"}
               className="hover:border-2 border-b-blue-500 p-2 transition-all duration-100"
             >
@@ -66,12 +73,6 @@ const Nav = () => {
               className="hover:border-2 border-b-blue-500 p-2 transition-all duration-100"
             >
               Contact
-            </Link>
-            <Link
-              to={"services"}
-              className="hover:border-2 border-b-blue-500 p-2 transition-all duration-100"
-            >
-              Our Services
             </Link>
           </ul>
         </div>

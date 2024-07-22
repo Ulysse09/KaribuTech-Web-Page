@@ -20,11 +20,11 @@ const Careers = () => {
         <div className="pb-[10rem] pt-[5rem]    ">
           <div className=" w-3/4 h-72 mx-auto flex flex-col items-center pt-24 text-center  ">
             <h1 className=" pb-10 text-white text-[2.7rem] z-50 font-bold  w-100 h-16 text-6xl mt-4">
-              Why Psyred
+              Why Karibu Tech
             </h1>
 
             <p className=" text-white max-w-2xl text-left text-xl lg:text-2xl font-light font-roboto mt-4">
-              We are a team of Stanford engineers, DARPA Grand Challenge
+              We are a team of engineers, DARPA Grand Challenge
               winners, IDEO and Volkswagen alums, NASA roboticists, 3D printer
               designers, and pioneering software developers.
             </p>

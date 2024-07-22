@@ -83,7 +83,10 @@ function App() {
                 dynamic digital solutions.
               </p>
               <div className="flex ">
-                <Button1 text="Contact us" />
+                <Link to={"contact"}>
+                  <Button1 text="Contact us" />
+                
+                </Link>
               </div>
             </div>
           </div>
