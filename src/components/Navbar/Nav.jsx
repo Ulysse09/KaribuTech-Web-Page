@@ -39,49 +39,49 @@ const Nav = () => {
           <ul className="flex font-roboto font-semibold space-x-4 ">
             <Link
               to={"/"}
-              className="hover:border-2 border-b-blue-500 p-2 transition-all duration-100"
+              className="hover:border-b-2 border-b-purple-500 p-2 transition-all duration-100"
             >
               Home
             </Link>
             <Link
               to={"about"}
-              className="hover:border-2 border-b-blue-500 p-2 transition-all duration-100"
+              className="hover:border-b-2 border-b-purple-500 p-2 transition-all duration-100"
             >
               About
             </Link>
             <Link
               to={"services"}
-              className="hover:border-2 border-b-blue-500 p-2 transition-all duration-100"
+              className="hover:border-b-2 border-b-purple-500 p-2 transition-all duration-100"
             >
               Our Services
             </Link>
 
             <Link
               to={"careers"}
-              className="hover:border-2 border-b-blue-500 p-2 transition-all duration-100"
+              className="hover:border-b-2 border-b-purple-500 p-2 transition-all duration-100"
             >
               Careers
             </Link>
             <Link
               to={"gallery"}
-              className="hover:border-2 border-b-blue-500 p-2 transition-all duration-100"
+              className="hover:border-b-2 border-b-purple-500 p-2 transition-all duration-100"
             >
-              Gallery
+              Portfolio
             </Link>
-            <Link
-              to={"contact"}
-              className="hover:border-2 border-b-blue-500 p-2 transition-all duration-100"
-            >
-              Contact
-            </Link>
+           
+              
+          
           </ul>
         </div>
-
+         <Link
+              to={"contact"}>
         <div className="space-x-4 items-center lg:flex hidden">
           <p className="px-4 py-2 bg-purple-400 text-white font-roboto  ">
             Contact us
           </p>
+
         </div>
+        </Link>
 
         <div className="lg:hidden text-4xl text-black " onClick={handletoggle}>
           {openModal ? <IoMdClose /> : <BiMenuAltRight />}

@@ -12,6 +12,8 @@ import Gallery from "./pages/Gallery.jsx";
 import Careers from "./pages/Careers.jsx"
 import { Footer2 } from "./components/Footer/Footer2.jsx";
 import Services from "./pages/Services.jsx";
+
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop.jsx";
 const Layout = () => {
   return (
     <>
@@ -25,6 +27,7 @@ const Layout = () => {
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
+    <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<App />} />

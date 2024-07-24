@@ -8,7 +8,8 @@ import ship2 from "../assets/ship2.jpg";
 import air from "../assets/air.jpg";
 import trucks from "../assets/trucks.jpg";
 import Card from "../components/Card/Card";
-import Header from "../sections/Header";
+import Header from "../sections/OurServices/Header";
+import CardNoBtn from "../components/Card/CardNoBtn";
 const About = () => {
   const testimonies = [
     {
@@ -30,7 +31,7 @@ const About = () => {
   return (
     <>
       {/* header image */}
-      <Header title={"About us!"}/>
+      <Header title={"About us"} />
       {/* header text  */}
 
       <div className=" w-full pt-[4rem] bg-slate-100 bg-gradient-to-b from-white">
@@ -99,7 +100,9 @@ const About = () => {
               V
             </h1>
             <div className=" ">
-              <p className="mt-[-1rem]   text-white text-3xl font-bold">Our vision</p>
+              <p className="mt-[-1rem]   text-white text-3xl font-bold">
+                Our vision
+              </p>
               <p className="text-white max-w-sm">
                 Our Vision To be the leading digital agency in Africa, driving
                 transformation and innovation across the continent.
@@ -129,7 +132,7 @@ const About = () => {
         Why choose us
       </h1>
       <div className="md:flex md:mt-[-4rem]  font-nubito  xl:justify-evenly h-full w-full gap-2 p-5 xl:pr- xl:pl-20 transition duration-500">
-        <Card
+        <CardNoBtn
           title={"Local Expertise "}
           content={
             "With a deep understanding of the African market, we create solutions that are culturally relevant and resonate with your audience"
@@ -139,17 +142,17 @@ const About = () => {
           }
         />
 
-        <Card
+        <CardNoBtn
           title={"Client Centric Approach"}
           content={
             "Your success is our priority. We work closely with you throughout the project, ensuring your vision is realized and your expectations are exceeded"
           }
           icon={
-            <FaUser  className="text-white text-5xl group-hover:text-blue-900  transition-colors duration-500 delay-150 " />
+            <FaUser className="text-white text-5xl group-hover:text-blue-900  transition-colors duration-500 delay-150 " />
           }
         />
 
-        <Card
+        <CardNoBtn
           title={"Proven Track Record"}
           content={
             "Our portfolio showcases a wide range of successful projects that demonstrate our ability to deliver high-quality, impactful digital solutions"

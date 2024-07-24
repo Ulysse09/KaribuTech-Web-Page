@@ -85,7 +85,6 @@ function App() {
               <div className="flex ">
                 <Link to={"contact"}>
                   <Button1 text="Contact us" />
-                
                 </Link>
               </div>
             </div>
@@ -192,9 +191,21 @@ function App() {
           Projects We Worked On
         </div>
         <div className="lg:grid grid-cols-3 lg:gap-x-1 space-y-4 lg:space-y-0 lg:ml-14 mx-8 ">
-          <CardComponent imgSrc={blu} title={"Blu-Channel Logistics Web App"} />
-          <CardComponent imgSrc={fabpic} title={"Fablab Web App"} />
-          <CardComponent imgSrc={pport} title={"Personal Web Portfolio"} />
+          <CardComponent
+            imgSrc={blu}
+            title={"Blu-Channel Logistics Web App"}
+            link={"https://blue-channel.vercel.app"}
+          />
+          <CardComponent
+            imgSrc={fabpic}
+            title={"Fablab Web App"}
+            link={"https://fablabrwanda.vercel.app/"}
+          />
+          <CardComponent
+            imgSrc={pport}
+            title={"Personal Web Portfolio"}
+            link={"https://pportfolio-rk7n.vercel.app/#about"}
+          />
         </div>
       </div>
 

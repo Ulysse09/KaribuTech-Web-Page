@@ -1,9 +1,10 @@
 import React from 'react'
 import { Card } from "flowbite-react";
 import Button1 from '../Button/Button1';
+import { Link } from 'react-router-dom';
 
 
-function CardComponent({imgSrc,title}) {
+function CardComponent({imgSrc,title,link}) {
   return (
     <Card
       className="max-w-sm font-nunito "
@@ -17,7 +18,10 @@ function CardComponent({imgSrc,title}) {
         Here are the biggest enterprise technology acquisitions of 2021 so far,
         in reverse chronological order.
       </p>
-      <Button1 text={"Link to"} />
+
+      <a href={link} className='flex justify-center'>
+        <Button1 text={"Link to"} />
+      </a>
     </Card>
   );
 }

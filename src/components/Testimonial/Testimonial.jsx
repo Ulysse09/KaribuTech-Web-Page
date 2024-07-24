@@ -17,19 +17,21 @@ const Testimonial = () => {
         </svg>
         <Blockquote>
           <p className="text-2xl font-medium italic text-gray-900 dark:text-white">
-            "Flowbite is just awesome. It contains tons of predesigned
-            components and pages starting from login screen to complex
-            dashboard. Perfect choice for your next SaaS application."
+            We have had the pleasure of working with Karibu Tech, a
+            leading web development agency based in Africa, and our experience
+            has been nothing short of exceptional. From the initial consultation
+            to the final delivery, their team demonstrated unparalleled
+            professionalism, expertise, and dedication.
           </p>
         </Blockquote>
         <figcaption className="mt-6 flex items-center justify-center space-x-3">
-          <Avatar rounded size="xs"  alt="profile picture" />
+          <Avatar rounded size="xs" alt="profile picture" />
           <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
             <cite className="pr-3 font-medium text-gray-900 dark:text-white">
-              Micheal Gough
+              Kabalisa Paul
             </cite>
             <cite className="pl-3 text-sm text-gray-500 dark:text-gray-400">
-              CEO at Google
+              MD at Blue-Channel Logistics
             </cite>
           </div>
         </figcaption>

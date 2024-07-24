@@ -3,11 +3,11 @@ import { IoIosTimer } from "react-icons/io";
 import Button1 from '../Button/Button1';
 import { Link } from 'react-router-dom';
 
-function Card({title,content,icon,color}) {
+function CardNoBtn({title,content,icon,color}) {
     const borderColor = color
     
    return (
-    <div className={`group    p-5 md:w-[70rem] border-1  ${borderColor} rounded-lg  hover:border-2 hover:rounded-lg mt-3 transition-all duration-100 flex flex-col items-center space-y-4 `}>
+    <div className={`group    p-5 md:w-[70rem] border-1  ${borderColor} rounded-lg    mt-3 transition-all duration-100 flex flex-col items-center space-y-4 `}>
           <div className="bg-purple-500 group-hover:bg-white group-hover:border-4 group-hover:border-purple-900  w-24 h-24 rounded-full flex items-center justify-center mt-6  ml-auto mr-auto ">
              {icon}  
           </div>
@@ -19,12 +19,9 @@ function Card({title,content,icon,color}) {
             
           </p>
 
-          <Link to={'services'}>
-            <Button1 text={'Learn more'}/>
-          
-          </Link>
+           
         </div>
   )
 }
 
-export default Card
+export default CardNoBtn
