@@ -42,8 +42,8 @@ const Form = () => {
     <>
       <ToastContainer />
       <div className="lg:pb-8  relative font-nunito  ">
-        <div className="lg:bg-image-2   " />
-        <div className="lg:mt-4 top-4 lg:pb-12 bg-purple-200 rounded-xl  flex flex-col md:flex-row lg:absolute lg:w-[50%] md:w-[75%]     lg:top-[1rem] md:left-[8rem] md:top-[55rem] py-[2rem] md:pb-[6rem] pb-[5rem] w-full">
+        <div className="bg-image-2   " />
+        <div className="lg:mt-4 top-1 pb-0 lg:pb-12 bg-purple-200 rounded-xl  flex flex-col md:flex-row absolute lg:w-[50%] md:w-[75%]     lg:top-[1rem] md:left-[8rem] md:top-[55rem] py-[2rem] md:pb-[10rem] pb-[5rem] w-full">
           <form className="flex flex-col px-8  md:w-2/3 space-y-10   ">
             <h2 className="text-[rgb(3,57,108)] text-2xl font-semibold font-roboto">
               Contact us 

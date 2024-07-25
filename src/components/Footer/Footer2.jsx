@@ -11,13 +11,13 @@ import {
 
 export function Footer2() {
   return (
-    <Footer container className=" text bg-purple-100">
-      <div className="w-full ">
-        <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
-          <div className="w-24">
+    <Footer container className=" text bg-purple-100 mt-16 ">
+      <div className="w-full  ">
+        <div className="grid w-full place-items-start   justify-center sm:flex sm:justify-between md:flex md:grid-cols-1">
+          <div className="w-20 mb-4  ">
             <img src={logo} className="rounded-full" alt="" />
           </div>
-          <div className="grid  font-nunito grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
+          <div className="grid      font-nunito   gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div className="text-black">
               <Footer.Title className="text-black" title="about" />
               <Footer.LinkGroup col>
@@ -26,14 +26,14 @@ export function Footer2() {
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="Follow us" />
+              <Footer.Title className="text-black" title="Follow us" />
               <Footer.LinkGroup col>
                 <Footer.Link href="#">Github</Footer.Link>
                 <Footer.Link href="#">Discord</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title title="Legal" />
+              <Footer.Title className="text-black" title="Legal" />
               <Footer.LinkGroup col>
                 <Footer.Link href="#">Privacy Policy</Footer.Link>
                 <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
