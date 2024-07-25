@@ -39,6 +39,10 @@ import { Accordion3 } from "./components/Accordion3/Accordion3";
 import Form from "./components/Form/Form";
 
 import blu from './assets/Blu-logistics.png'
+
+
+import { RotatingLines } from "react-loader-spinner";
+import { useState } from "react";
 function App() {
    
 
@@ -58,16 +62,21 @@ function App() {
   //   },
   // ];
 
+  const   [isLoading,setIsLoading] =useState(false)
+
   return (
     <>
       <div className="relative     ">
+        {!isLoading &&<div className=" justify-center flex h-[100vh] bg-purple-200"><RotatingLines strokeColor="purple" width="150" wrapperClass=""  /></div>   }
         <div className="lg:h-[100vh] flex justify-center    ">
           <div className="object-cover brightness-50  bg-red-300 w-full lg:h-[100vh] h-[60vh]">
-            <img
+            
+            <img  
               src={corpo4}
               className="lg:h-[100vh] h-[60vh] lg:w-full object-cover object-top  "
               alt=""
               srcset=""
+              onLoad={()=>setIsLoading(true)}
             />
           </div>
 

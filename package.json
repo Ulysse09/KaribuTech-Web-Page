@@ -15,6 +15,7 @@
     "flowbite-react": "^0.10.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loader-spinner": "^6.1.6",
     "react-photo-album": "^2.3.1",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.25.1",

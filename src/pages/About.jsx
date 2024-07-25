@@ -79,7 +79,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className=" bg-purple-600 font-nunito w-full  justify-evenly  ">
+      <div className=" bg-purple-500/70 font-nunito w-full  justify-evenly  ">
         <div className="md:flex flex items-start   px-[2rem]   h-full md:pt-20 lg:py-10 md:pb-20 space-x-8 py-8 container mx-auto">
           <div className=" md:w-[40rem] xl:h-36 flex items-center space-x-6  ">
             <h1 className=" text-4xl font-semibold text-white outline outline-1 p-4 rounded-md">

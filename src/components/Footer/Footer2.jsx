@@ -11,7 +11,7 @@ import {
 
 export function Footer2() {
   return (
-    <Footer container className=" text">
+    <Footer container className=" text bg-purple-100">
       <div className="w-full ">
         <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
           <div className="w-24">
