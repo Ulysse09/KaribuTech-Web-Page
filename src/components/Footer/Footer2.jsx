@@ -19,24 +19,24 @@ export function Footer2() {
           </div>
           <div className="grid      font-nunito   gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div className="text-black">
-              <Footer.Title className="text-black" title="about" />
+              <Footer.Title className="text-black text-lg" title="about" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Flowbite</Footer.Link>
-                <Footer.Link href="#">Tailwind CSS</Footer.Link>
+                <Footer.Link href="#" className="text-lg">Flowbite</Footer.Link>
+                <Footer.Link href="#" className="text-lg">Tailwind CSS</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title className="text-black" title="Follow us" />
+              <Footer.Title className="text-black text-lg" title="Follow us" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Github</Footer.Link>
-                <Footer.Link href="#">Discord</Footer.Link>
+                <Footer.Link href="#" className="text-lg">Github</Footer.Link>
+                <Footer.Link href="#" className="text-lg">Discord</Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title className="text-black" title="Legal" />
+              <Footer.Title className="text-black text-lg"  title="Legal" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Privacy Policy</Footer.Link>
-                <Footer.Link href="#">Terms &amp; Conditions</Footer.Link>
+                <Footer.Link href="#" className="text-lg">Privacy Policy</Footer.Link>
+                <Footer.Link href="#" className="text-lg">Terms &amp; Conditions</Footer.Link>
               </Footer.LinkGroup>
             </div>
           </div>
