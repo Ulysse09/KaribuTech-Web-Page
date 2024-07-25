@@ -6,7 +6,8 @@ export function Accordion3() {
   return (
     <Accordion
       className=" transition-all duration-500 delay-100  text-xl border-2 border-purple-500 "
-      onAnimationStart={() => {}}
+      alwaysOpen={false}
+      autoFocus={false}
     >
       <Accordion.Panel>
         <Accordion.Title>

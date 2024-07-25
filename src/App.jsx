@@ -224,7 +224,7 @@ function App() {
           Testimonials
         </h1>
 
-        <Carousel className="py-8">
+        <Carousel className="py-8  ">
           <Testimonial />
 
           <Testimonial />
@@ -242,14 +242,14 @@ function App() {
           </div>
         </div>
 
-        <div className="lg:w-1/2 px-14 lg:mt-[8rem] mt-[3rem] text-black font-nunito ">
+        <div className="lg:w-1/2 w-full lg:px-14 px-5 lg:mt-[8rem] mt-[3rem] text-black font-nunito ">
           <Accordion3 />
         </div>
       </div>
 
       {/* CONTACT FORM */}
       <div>
-        <Form classNam="bg-red-400" />
+        <Form />
       </div>
     </>
   );
