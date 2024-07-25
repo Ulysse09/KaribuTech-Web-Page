@@ -67,7 +67,7 @@ function App() {
   return (
     <>
       <div className="relative     ">
-        {!isLoading &&<div className=" justify-center flex h-[100vh] bg-purple-200"><RotatingLines strokeColor="purple" width="150" wrapperClass=""  /></div>   }
+        {!isLoading &&<div className=" justify-center flex h-[100vh] bg-purple-200"><RotatingLines strokeColor="purple" width="150" animationDuration="4s"  /></div>   }
         <div className="lg:h-[100vh] flex justify-center    ">
           <div className="object-cover brightness-50  bg-red-300 w-full lg:h-[100vh] h-[60vh]">
             
