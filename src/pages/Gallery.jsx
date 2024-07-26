@@ -41,7 +41,7 @@ const Gallery = () => {
         <div className="lg:grid grid-cols-3 lg:gap-x-1 space-y-4 lg:space-y-0 lg:ml-14 mx-8 ">
           <CardComponent
             link={"https://blue-channel.vercel.app"}
-            imgSrc={blu}
+             imgSrc={blu}
             title={"Blu-Channel Logistics Web App"}
           />
           <CardComponent

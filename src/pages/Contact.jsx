@@ -26,7 +26,7 @@ const Contact = () => {
         </div>
       </div>
       {/* header text  */}
-      <div className=" w-full font-roboto pt-[4rem] px-8 bg-slate-100 bg-gradient-to-b from-white">
+      <div className=" w-full font-nunito pb-24 pt-[4rem] px-8 bg-slate-100 bg-gradient-to-b from-white">
         <div className="md:flex justify-evenly   ">
           <div className="  lg:w-1/2 p-6   ">
             <h1 className="uppercase lg:text-4xl text-2xl font-semibold">
@@ -45,8 +45,9 @@ const Contact = () => {
                 <div>
                   <p className="pt-7 font-roboto font-bold ">Visit us</p>
                   <p className=" max-w-sm">
-                    We meet our customers’ demands for a personal & profesional
-                    service by offering innovative supply chain solutions.
+                    Kigali City,Kicukiro 314st. We meet our customers’ demands
+                    for a personal & profesional service by offering innovative
+                    digital solutions.
                   </p>
                 </div>
               </div>
@@ -122,12 +123,14 @@ const Contact = () => {
       {/* embedded map  */}
       <div className="">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.447462010169!2d30.081208408376916!3d-1.975310536754539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dca78890734fdd%3A0xec8ce4c0ccc86431!2sBlue%20Channel%20Logistics!5e0!3m2!1sen!2srw!4v1710082804516!5m2!1sen!2srw"
-          className="w-full"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15949.846923851153!2d30.107238399999996!3d-1.9693568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2srw!4v1722002073419!5m2!1sen!2srw"
+          width="w-full"
           height="450"
+          className="w-full"
+          allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+        ></iframe>  
       </div>
     </>
   );

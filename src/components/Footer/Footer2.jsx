@@ -19,24 +19,57 @@ export function Footer2() {
           </div>
           <div className="grid      font-nunito   gap-8 sm:mt-4 sm:grid-cols-3 sm:gap-6">
             <div className="text-black">
-              <Footer.Title className="text-black text-lg font-nunito " title="about" />
+              <Footer.Title
+                className="text-black text-lg font-nunito "
+                title="Our Company"
+              />
               <Footer.LinkGroup col>
-                <Footer.Link href="#" className="text-lg">Flowbite</Footer.Link>
-                <Footer.Link href="#" className="text-lg">Tailwind CSS</Footer.Link>
+                <Footer.Link href="/" className="text-lg">
+                  Home
+                </Footer.Link>
+                <Footer.Link href="about" className="text-lg">
+                  About Us
+                </Footer.Link>
+                <Footer.Link href="services" className="text-lg">
+                  Our Services
+                </Footer.Link>
+                <Footer.Link href="portfolio" className="text-lg">
+                  Portfolio
+                </Footer.Link>
+                <Footer.Link href="contact" className="text-lg">
+                  Contact us
+                </Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
               <Footer.Title className="text-black text-lg" title="Follow us" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#" className="text-lg">Github</Footer.Link>
-                <Footer.Link href="#" className="text-lg">Discord</Footer.Link>
+                <Footer.Link href="#" className="text-lg">
+                  LinkedIn
+                </Footer.Link>
+                <Footer.Link href="#" className="text-lg">
+                  Instagram
+                </Footer.Link>
+                <Footer.Link href="#" className="text-lg">
+                  X
+                </Footer.Link>
+                <Footer.Link href="#" className="text-lg">
+                  Facebook
+                </Footer.Link>
+                <Footer.Link href="#" className="text-lg">
+                  Whatsapp
+                </Footer.Link>
               </Footer.LinkGroup>
             </div>
             <div>
-              <Footer.Title className="text-black text-lg"  title="Legal" />
+              <Footer.Title className="text-black text-lg" title="Get in touch" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#" className="text-lg">Privacy Policy</Footer.Link>
-                <Footer.Link href="#" className="text-lg">Terms &amp; Conditions</Footer.Link>
+                <Footer.Link href="#" className="text-lg">
+                  +250784824525
+                </Footer.Link>
+                <Footer.Link href="#" className="text-lg">
+                  Rwanda,Kigali City
+                </Footer.Link>
               </Footer.LinkGroup>
             </div>
           </div>

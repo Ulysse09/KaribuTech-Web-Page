@@ -32,7 +32,7 @@ const Modal = ({ handletoggle }) => {
           className="hover:border-b-2 border-b-purple-500 p-2 transition-all duration-100"
           onClick={handletoggle}
         >
-          Gallery
+          Portfolio
         </Link>
 
         <Link
