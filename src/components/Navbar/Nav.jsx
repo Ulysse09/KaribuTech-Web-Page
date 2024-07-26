@@ -18,7 +18,7 @@ const Nav = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const [openModal, setOpenModal] = useState(false);
+  const [ openModal, setOpenModal] = useState(false);
   const handletoggle = () => {
     return setOpenModal(!openModal);
   };

@@ -45,7 +45,7 @@ const Form = () => {
         <div className="bg-image-2   " />
         <div className="lg:mt-4 top-1    lg:pb-12 bg-slate-100 rounded-xl  flex flex-col md:flex-row absolute lg:w-[50%] md:w-[75%]     lg:top-[1rem] md:left-[8rem] md:top-[55rem] py-[2rem] md:pb-[10rem] pb-[0rem] w-full">
           <form className="flex flex-col px-8  md:w-2/3 space-y-10   ">
-            <h2 className="text-[rgb(3,57,108)] text-2xl font-semibold font-roboto">
+            <h2 className="text-purple-700 font-nunito text-2xl font-semibold font-roboto">
               Contact us 
             </h2>
 
@@ -86,7 +86,7 @@ const Form = () => {
             <div className=" justify-center flex lg:justify-start">
               <button
                 onClick={(e) => handleSubmit(e)}
-                className="px-4 py-2 bg-[#055589] focus:bg-black rounded-md text-white font-semibold"
+                className="px-4 py-2 bg-purple-600 focus:bg-black rounded-md text-white font-semibold"
               >
                 {isLoading ? "Sending mail..." : "Send mail"}
               </button>

@@ -112,7 +112,7 @@ function App() {
       <div className="  flex   lg:items-center flex-col         lg:space-y-0   space-y-[3rem]       ">
         <div className=" bg-purple-100 hover:border-purple-500 hover:border-2 hover:transition-colors duration-300  rounded-2xl my-[1rem] pt-8 lg:my-[4rem] lg:h-[85vh]  shadow-md">
           <div className="flex lg:flex-row  flex-col space-y-12 lg:items-center px-[2rem]  lg:space-x-[5rem] lg:container lg:mx-auto">
-            <div className="lg:w-[38vw] md:w-[80vw]  lg:p-[5rem]   lg:space-y-4  ">
+            <div className="lg:w-[40vw] md:w-[80vw]  lg:p-[5rem]   lg:space-y-4  ">
               <img src={robot} className="rounded-lg" alt="" />
               <p className="font-semibold text-[#3A3A3A]  lg:text-left md:text-right text-center py-4 lg:py-0 text-sm max-w-xl">
                 Rwanda's trusted Digital Agency{" "}
@@ -123,7 +123,7 @@ function App() {
                 <h2 className="lg:text-5xl text-3xl text-black lg:text-left text-center font-semibold font-roboto ">
                   Who Are We?
                 </h2>
-                <p className=" lg:max-w-md max-w-md text-lg lg:text-md text-left font-roboto font-light  ">
+                <p className=" lg:max-w-md max-w-md text-lg lg:text-md lg:text-left text-center font-roboto font-light  ">
                   <span className="text-purple-900 font-bold">Karibu Tech</span>{" "}
                   ,where creativity meets cutting-edge technology. Founded in
                   2020, we are a passionate team of developers, designers, and
