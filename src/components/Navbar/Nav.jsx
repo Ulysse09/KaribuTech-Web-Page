@@ -19,9 +19,24 @@ const Nav = () => {
   }, []);
 
   const [ openModal, setOpenModal] = useState(false);
-  const handletoggle = () => {
-    return setOpenModal(!openModal);
-  };
+  const [isAnimating, setIsAnimating] = useState(false)
+  const [handleBtn,setHandleBtn] = useState(false)
+  const handletoggle = () => { 
+    setOpenModal(!openModal) 
+    setIsAnimating(!isAnimating)
+     
+
+    if (!openModal){
+      setIsAnimating(false) 
+      setTimeout(()=> {
+        
+        setIsAnimating(false)       
+      },2000)
+    } else{
+      setOpenModal(false)
+    }
+
+  }
 
   return (
     <>
@@ -89,7 +104,7 @@ const Nav = () => {
 
         {/* navigation modal */}
 
-        {openModal && <Modal handletoggle={handletoggle} />}
+        {openModal && <Modal isAnimating={isAnimating} handletoggle={handletoggle} />}
       </nav>
     </>
   );

@@ -61,3 +61,4 @@ const Accordion2 = () => {
 };
 
 export default Accordion2;
+  
