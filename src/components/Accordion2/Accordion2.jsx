@@ -13,12 +13,12 @@ const Accordion2 = () => {
   };
   const questions = [
     {
-      title: "Senior Mechanical engineer",
-      answer: "Answer 1 content...",
+      title: "Backend Engineer",
+      answer: "BackEnd engineers needed and wanted if interested Contact us   ",
     },
     {
-      title: "Senior Electrical Designer",
-      answer: "Answer 2 content...",
+      title: "Business Analyst ",
+      answer: "Business Analyst needed and wanted if interested Contact us ",
     },
   ];
 
@@ -42,7 +42,7 @@ const Accordion2 = () => {
         <p
           className={`.accordion-body ${
             activeIndex === index
-              ? "open active bg-red-400 fadeInDown    p-6 rounded-lg   text-black       "
+              ? "open active font-semibold fadeInDown    p-6 rounded-lg   text-black       "
               : ""
           }`}
         >

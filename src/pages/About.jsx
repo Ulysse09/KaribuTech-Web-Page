@@ -10,22 +10,23 @@ import trucks from "../assets/trucks.jpg";
 import Card from "../components/Card/Card";
 import Header from "../sections/OurServices/Header";
 import CardNoBtn from "../components/Card/CardNoBtn";
+import paul from './../assets/paul.jpg'
 const About = () => {
   const testimonies = [
     {
-      name: "Paul",
-      mainImage: ship2,
-      title: "CEO",
+      name: "Kabalisa Paul",
+      mainImage: paul,
+      title: "Founder",
     },
     {
-      name: "Laup",
-      mainImage: air,
-      title: "CTO",
+      name: "Kabalisa Paul",
+      mainImage: paul,
+      title: "Developer",
     },
     {
-      name: "Cena",
-      mainImage: trucks,
-      title: "COO",
+      name: "Kabalisa",
+      mainImage: paul,
+      title: "Business Analyst",
     },
   ];
   return (
@@ -167,7 +168,7 @@ const About = () => {
 
       {/* Team members  */}
       <div className="bg-[#F3F5F5] lg:px-[8rem] px-[1rem] mt-[4rem] pb-[5rem]">
-        <h2 className="text-center text-3xl font-semibold py-8 text-[#03396C]">
+        <h2 className="text-center text-3xl font-semibold py-8 text-purple-500 font-nunito   ">
           Meet the team
         </h2>
         <Carousel
@@ -182,8 +183,8 @@ const About = () => {
             return (
               <div className="flex md:flex-row bg-white flex-col items-center px-[1rem] justify-evenly py-8 ">
                 <div className="md:w-1/2 flex flex-col space-y-6">
-                  <p className="text-[#3A3A3A]">{item.name}</p>
-                  <p className="font-bold">{item.title}</p>
+                  <p className=" text-2xl font-nunito">{item.name}</p>
+                  <p className="font-bold text-4xl font-nunito ">{item.title}</p>
                 </div>
                 <div className="">
                   <img
