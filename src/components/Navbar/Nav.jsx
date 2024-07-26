@@ -23,18 +23,10 @@ const Nav = () => {
   const [handleBtn,setHandleBtn] = useState(false)
   const handletoggle = () => { 
     setOpenModal(!openModal) 
-    setIsAnimating(!isAnimating)
-     
+      
 
-    if (!openModal){
-      setIsAnimating(false) 
-      setTimeout(()=> {
-        
-        setIsAnimating(false)       
-      },2000)
-    } else{
-      setOpenModal(false)
-    }
+     
+    
 
   }
 
@@ -104,7 +96,7 @@ const Nav = () => {
 
         {/* navigation modal */}
 
-        {openModal && <Modal isAnimating={isAnimating} handletoggle={handletoggle} />}
+        {openModal && <Modal  handletoggle={handletoggle} />}
       </nav>
     </>
   );
