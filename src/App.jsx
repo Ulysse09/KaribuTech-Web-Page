@@ -67,16 +67,23 @@ function App() {
   return (
     <>
       <div className="relative     ">
-        {!isLoading &&<div className=" justify-center flex h-[100vh] bg-purple-200"><RotatingLines strokeColor="purple" width="150" animationDuration="4s"  /></div>   }
+        {!isLoading && (
+          <div className=" justify-center flex h-[100vh] bg-purple-200">
+            <RotatingLines
+              strokeColor="purple"
+              width="150"
+              animationDuration="4s"
+            />
+          </div>
+        )}
         <div className="lg:h-[100vh] flex justify-center    ">
           <div className="object-cover brightness-50  bg-red-300 w-full lg:h-[100vh] h-[60vh]">
-            
-            <img  
+            <img
               src={corpo4}
               className="lg:h-[100vh] h-[60vh] lg:w-full object-cover object-top  "
               alt=""
               srcset=""
-              onLoad={()=>setIsLoading(true)}
+              onLoad={() => setIsLoading(true)}
             />
           </div>
 
@@ -140,7 +147,7 @@ function App() {
         </div>
       </div>
       {/* Our services */}
-      <div className=" w-full lg:pt-[8rem] pt-[4rem]  from-purple-300/50 lg:mt-44 lg:my-32 mb-0 px-10  pb-24 bg-gradient-to-b  to-white   ">
+      <div className=" w-full lg:pt-[8rem] pt-[4rem]  from-purple-300/50 lg:mt-44 lg:my-32 mb-0 lg:px-10 px-4  pb-24 bg-gradient-to-b  to-white   ">
         <div className=" flex flex-col items-center  ">
           <h3 className="lg:text-5xl text-2xl text-center max-w-screen-lg font-nunito pb-4 mb-4 font-semibold justify-center ">
             Transforming Ideas Into Reality With Cutting Edge Solutions
@@ -153,8 +160,8 @@ function App() {
           </p>
         </div>
 
-        <div className="flex lg:flex-row flex-col">
-          <div className="lg:w-1/3 flex lg:px-6 px-1 items-center font-nunito">
+        <div className="flex lg:flex-row flex-col   ">
+          <div className="lg:w-1/3 flex lg:px-6 px-1 items-center font-nunito ">
             <Card
               color={"border-purple-500 "}
               icon={
@@ -167,7 +174,7 @@ function App() {
             />
           </div>
 
-          <div className="lg:w-1/3 flex lg:px-6 px-1 items-center font-nunito">
+          <div className="lg:w-1/3 flex lg:px-6 px-1  items-center font-nunito">
             <Card
               color={"border-purple-500 "}
               icon={

@@ -80,12 +80,12 @@ const About = () => {
       </div>
 
       <div className=" bg-purple-900/70 font-nunito w-full   ">
-        <div className="md:flex-row flex flex-col md:justify-evenly space-y-4  items-center px-[2rem]   h-full md:pt-20 lg:py-10 md:pb-20 lg:space-x-8 py-8 container mx-auto">
-          <div className="    xl:h-36 flex items-center space-x-6  ">
+        <div className="md:flex-row flex flex-col md:justify-around lg:space-y-0 space-y-4  items-center px-[2rem]   h-full md:pt-20 lg:py-10 md:pb-20 lg:space-x-8 py-8  mx-auto">
+          <div className="    xl:h-36 flex items-center space-x-6 min-h-[10rem]   ">
             <h1 className=" text-4xl font-semibold text-white outline outline-1 p-4 rounded-md">
               M
             </h1>
-            <div>
+            <div className="">
               <p className="pt-7 text-white font-bold text-3xl">Our mission</p>
               <p className="text-white max-w-sm">
                 Our mission is to empower African businesses and organizations
@@ -95,12 +95,12 @@ const About = () => {
             </div>
           </div>
 
-          <div className="   xl:h-36  flex items-center space-x-4   ">
+          <div className="   xl:h-36  flex items-center space-x-4  min-h-[10rem]    ">
             <h1 className=" text-4xl font-semibold text-white  outline outline-1 px-5 py-4 rounded-md">
               V
             </h1>
             <div className=" ">
-              <p className="mt-[-1rem] lg:mt-[1rem]  text-white text-3xl font-bold">
+              <p className="mt-[-1rem] lg:mt-[-1rem]  text-white text-3xl font-bold">
                 Our vision
               </p>
               <p className="text-white max-w-sm">
