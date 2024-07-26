@@ -249,7 +249,7 @@ function App() {
           </div>
         </div>
 
-        <div className="lg:w-1/2 w-full lg:px-14 px-5 lg:mt-[8rem] mt-[3rem] text-black font-nunito ">
+        <div className="lg:w-1/2 w-full  lg:px-14 px-5 lg:mt-[8rem] mt-[3rem] text-black font-nunito ">
           <Accordion3 />
         </div>
       </div>
