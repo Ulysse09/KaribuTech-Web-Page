@@ -83,7 +83,7 @@ const Form = () => {
               required
               onChange={(e) => setText(e.target.value)}
             />
-            <div className="">
+            <div className=" justify-center flex lg:justify-start">
               <button
                 onClick={(e) => handleSubmit(e)}
                 className="px-4 py-2 bg-[#055589] focus:bg-black rounded-md text-white font-semibold"
