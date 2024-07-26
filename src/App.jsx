@@ -147,7 +147,7 @@ function App() {
         </div>
       </div>
       {/* Our services */}
-      <div className=" w-full lg:pt-[8rem] pt-[4rem]  from-purple-300/50 lg:mt-44 lg:my-32 mb-0 lg:px-10 px-4  pb-24 bg-gradient-to-b  to-white   ">
+      <div className=" w-full lg:pt-[8rem] pt-[4rem]  from-purple-100 lg:mt-44 lg:my-32 mb-0 lg:px-10 px-4  pb-24 bg-gradient-to-b  to-white   ">
         <div className=" flex flex-col items-center  ">
           <h3 className="lg:text-5xl text-2xl text-center max-w-screen-lg font-nunito pb-4 mb-4 font-semibold justify-center ">
             Transforming Ideas Into Reality With Cutting Edge Solutions
