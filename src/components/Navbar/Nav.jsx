@@ -75,19 +75,14 @@ const Nav = () => {
             >
               Portfolio
             </Link>
-           
-              
-          
           </ul>
         </div>
-         <Link
-              to={"contact"}>
-        <div className="space-x-4 items-center lg:flex hidden">
-          <p className="px-4 py-2 bg-purple-400 text-white font-roboto  ">
-            Contact us
-          </p>
-
-        </div>
+        <Link to={"contact"}>
+          <div className="space-x-4 items-center lg:flex hidden">
+            <p className="px-4 py-2 bg-purple-400 text-white font-roboto  hover:bg-purple-300 hover:text-black transition-all duration-200 delay-150  ">
+              Free Digital Audit
+            </p>
+          </div>
         </Link>
 
         <div className="lg:hidden text-4xl text-black " onClick={handletoggle}>
@@ -96,7 +91,7 @@ const Nav = () => {
 
         {/* navigation modal */}
 
-        {openModal && <Modal  handletoggle={handletoggle} />}
+        {openModal && <Modal handletoggle={handletoggle} />}
       </nav>
     </>
   );

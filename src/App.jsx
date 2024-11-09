@@ -9,7 +9,7 @@ import { RiGlobalLine } from "react-icons/ri";
 import { MdDeliveryDining } from "react-icons/md";
 
 import { IoTrendingUp } from "react-icons/io5";
-import fabpic from "./assets/fabpic.png"
+// import fabpic from "./assets/fabpic.png"
 
 
 import { CiMobile1 } from "react-icons/ci";
@@ -17,7 +17,7 @@ import { CiMobile1 } from "react-icons/ci";
 import ydrone from "./assets/ydrone.png";
 import robot from "./assets/robot.jpg";
 import pport from "./assets/pport.png"
-import gen from "./assets/gen.png";
+// import gen from "./assets/gen.png";
  
 
 import Accordion from "./components/Accordion/Accordion";
@@ -100,7 +100,7 @@ function App() {
               </p>
               <div className="flex ">
                 <Link to={"contact"}>
-                  <Button1 text="Contact us" />
+                  <Button1 text="Free Digital Audit" />
                 </Link>
               </div>
             </div>
@@ -212,11 +212,11 @@ function App() {
             title={"Blu-Channel Logistics Web App"}
             link={"https://blue-channel.vercel.app"}
           />
-          <CardComponent
+          {/* <CardComponent
             imgSrc={fabpic}
             title={"Fablab Web App"}
             link={"https://fablabrwanda.vercel.app/"}
-          />
+          /> */}
           <CardComponent
             imgSrc={pport}
             title={"Personal Web Portfolio"}

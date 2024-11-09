@@ -8,7 +8,7 @@ import { FaRoad } from "react-icons/fa";
 
 import CardComponent from "./../components/Card/CardComponent";
 import blu from "./../assets/Blu-logistics.png";
-import fabpic from "./../assets/fabpic.png";
+// import fabpic from "./../assets/fabpic.png";
 import pport from "./../assets/pport.png";
 import Header from "../sections/OurServices/Header";
 
@@ -44,11 +44,11 @@ const Gallery = () => {
              imgSrc={blu}
             title={"Blu-Channel Logistics Web App"}
           />
-          <CardComponent
+          {/* <CardComponent
             link={"https://fablabrwanda.vercel.app/"}
             imgSrc={fabpic}
             title={"Fablab Web App"}
-          />
+          /> */}
           <CardComponent
             link={"https://pportfolio-rk7n.vercel.app/#about"}
             imgSrc={pport}
