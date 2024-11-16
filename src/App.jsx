@@ -89,18 +89,16 @@ function App() {
 
           <div className="md:flex justify-center   font-nunito lg:top-[15rem] items-center  top-10 fadeInDown text-white absolute lg:px-[5rem] px-[2rem] space-y-10 lg:space-y-0  lg:mb-[7rem]       ">
             <div className=" flex-col items-center flex  space-y-[3rem]  lg:space-y-[2rem]   ">
-              <h1 className="font-semibold   pl-2 lg:text-4xl     text-3xl ">
-                From Concept to Success...
-                <span className=" text-purple-400">Karibu</span> Tech
+              <h1 className="font-semibold text-center   lg:text-5xl     text-3xl ">
+                Want to Grow Your Business Online?
               </h1>
 
-              <p className="font-light text-xl   max-w-lg">
-                We are dedicated to transforming your innovative ideas into
-                dynamic digital solutions.
+              <p className="font-light text-2xl   max-w-lg">
+                Get Your Free Digital Marketing Consultation
               </p>
               <div className="flex ">
                 <Link to={"contact"}>
-                  <Button1 text="Free Digital Audit" />
+                  <Button1 text="Get in touch" />
                 </Link>
               </div>
             </div>

@@ -10,11 +10,11 @@ const Contact = () => {
       {/* header image */}
       <div className="backgroundImage -z-10 bg-cover bg-bottom relative bg-blue-600 ">
         <div className="bg-e-global-color-1046ecd transition-all -z-20 duration-300 overlay" />
-        <div className="lg:pt-52 pt-34  ">
+        <div className="lg:pt- pt-34  ">
           <div className=" w-3/4 h-72 mx-auto align-center pt-24 text-center  ">
             <span className="">
               <h1 className=" pb-10 text-white text-[2.7rem] font-bold  w-100 h-16 text-6xl mt-4">
-                Contact Us{" "}
+                Get in touch with us
               </h1>
             </span>
             <span>

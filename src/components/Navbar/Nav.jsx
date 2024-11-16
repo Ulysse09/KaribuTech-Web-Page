@@ -40,7 +40,7 @@ const Nav = () => {
         }
       >
         <Link to={"/"}>
-          <img src={logo} alt="" className="h-[8vh]    rounded-full" />
+          <img src={logo} alt="" className="h-[15vh] w-[20vw]    rounded-full" />
         </Link>
         <div className="lg:flex hidden  items-center space-x-4 justify-between   ">
           <ul className="flex font-roboto font-semibold space-x-4 ">
@@ -80,7 +80,7 @@ const Nav = () => {
         <Link to={"contact"}>
           <div className="space-x-4 items-center lg:flex hidden">
             <p className="px-4 py-2 bg-purple-400 text-white font-roboto  hover:bg-purple-300 hover:text-black transition-all duration-200 delay-150  ">
-              Free Digital Audit
+              Get in touch
             </p>
           </div>
         </Link>
