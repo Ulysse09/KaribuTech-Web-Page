@@ -17,25 +17,23 @@ const Form = () => {
 
     if (fname && email && lname) {
       axios
-        .post("http://localhost:5000/subscribe", {
+        .post("https://mailchimp-server-66lt.onrender.com/subscribe", {
           email,
           fname,
           lname,
-        
         })
         .then((res) => {
           toast.success("Contact successfull");
           console.log(res.data);
           setEmail("");
           setFname("");
-          setLname("")
-          setIsLoading(false)
-                   })
+          setLname("");
+          setIsLoading(false);
+        })
         .catch((res) => {
           console.log("Error sending email", res);
           toast.error("Error sending email");
           setIsLoading(false);
-
         });
     } else return toast.error("Fill in the fields correctly") && setIsLoading(false);
   };
