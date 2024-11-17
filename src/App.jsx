@@ -36,7 +36,7 @@ import CardComponent from "./components/Card/CardComponent";
 import { Avatar, Blockquote } from "flowbite-react";
 import Testimonial from "./components/Testimonial/Testimonial";
 import { Accordion3 } from "./components/Accordion3/Accordion3";
-import Form from "./components/Form/Form";
+import Form2 from "./components/Form2/Form2";
 
 import blu from './assets/Blu-logistics.png'
 
@@ -254,7 +254,7 @@ function App() {
 
       {/* CONTACT FORM */}
       <div>
-        <Form />
+        <Form2 />
       </div>
     </>
   );
