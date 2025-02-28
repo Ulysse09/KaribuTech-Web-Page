@@ -35,12 +35,12 @@ const Nav = () => {
       <nav
         className={
           isScrolled
-            ? `nav-scrolled flex  font-nunito  items-center p-2 w-full lg:fixed   text-white z-10  lg:px-[10rem] justify-between`
-            : `flex   items-center p-2 w-full lg:fixed font-nunito  text-white z-10  lg:px-[10rem] justify-between`
+            ? `nav-scrolled  flex  font-nunito  items-center p-2 w-full lg:fixed   text-white z-10  lg:px-[10rem] justify-between`
+            : `flex bg-purple-400 md:bg-transparent    items-center p-2 w-full lg:fixed font-nunito  text-white z-10  lg:px-[10rem] justify-between`
         }
       >
         <Link to={"/"}>
-          <img src={logo} alt="" className="h-[15vh] w-[18vw]    rounded-full" />
+          <img src={logo} alt="" className="md:h-[15vh] md:w-[18vw] h-[8vh]      md:rounded-full" />
         </Link>
         <div className="lg:flex hidden  items-center space-x-4 justify-between   ">
           <ul className="flex font-roboto font-semibold space-x-4 ">
@@ -85,7 +85,7 @@ const Nav = () => {
           </div>
         </Link>
 
-        <div className="lg:hidden text-4xl text-black " onClick={handletoggle}>
+        <div className="lg:hidden text-4xl text-black  " onClick={handletoggle}>
           {openModal ? <IoMdClose /> : <BiMenuAltRight />}
         </div>
 

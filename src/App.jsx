@@ -80,25 +80,25 @@ function App() {
           <div className="object-cover brightness-50  bg-red-300 w-full lg:h-[100vh] h-[60vh]">
             <img
               src={corpo4}
-              className="lg:h-[100vh] h-[60vh] lg:w-full object-cover object-top  "
+              className="lg:h-[100vh] h-[60vh] lg:w-full object-cover object-top w-full   "
               alt=""
               srcset=""
               onLoad={() => setIsLoading(true)}
             />
           </div>
 
-          <div className="md:flex justify-center   font-nunito lg:top-[15rem] items-center  top-10 fadeInDown text-white absolute lg:px-[5rem] px-[2rem] space-y-10 lg:space-y-0  lg:mb-[7rem]       ">
-            <div className=" flex-col items-center flex  space-y-[3rem]  lg:space-y-[2rem]   ">
-              <h1 className="font-semibold text-center   lg:text-5xl     text-3xl ">
-                Want to Grow Your Business Online?
+          <div className="md:flex justify-center   font-nunito lg:top-[10rem] items-center  top-10 fadeInDown text-white absolute lg:px-[5rem] px-[2rem] space-y-10 lg:space-y-0  lg:mb-[7rem]       ">
+            <div className=" flex-col  items-center flex space-y-[2rem]  md:space-y-[3rem]   lg:space-y-[2rem]   ">
+              <h1 className="font-bold text-center  md:px-[5rem] flex flex-col md:flex    lg:text-5xl     text-3xl ">
+                <span className="text-purple-500">Karibu Tech</span>.Empowering the continents digital Economy.
               </h1>
 
-              <p className="font-light text-2xl   max-w-lg">
-                Get Your Free Digital Marketing Consultation
+              <p className="hidden md:flex font-light md:text-4xl text-2xl  text-center  max-w-lg">
+                Join the movement and be part of our mailing list
               </p>
-              <div className="flex ">
+              <div className="flex  ">
                 <Link to={"contact"}>
-                  <Button1 text="Get in touch" />
+                  <Button1 text="Join the movement " className='mb' />
                 </Link>
               </div>
             </div>
