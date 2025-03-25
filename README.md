@@ -29,8 +29,9 @@ A lightweight React + Vite web application containerized with Docker to demonstr
 
 ## 🛠️ Technical specification
 # Production Dockerfile
-# Stage 1: Build the app
 
+# Stage 1: Build the app
+```dockerfile
 FROM node:16 AS build
 WORKDIR /app
 COPY package.json package-lock.json vite.config.js tailwind.config.js ./
@@ -46,3 +47,4 @@ COPY --from=build /app/dist /usr/share/nginx/html
 EXPOSE 80
 # Serve the built file
 CMD ["nginx","-g","daemon off;"]
+```
